@@ -1992,7 +1992,7 @@ HalloweenGamesSection:Button({
                     Title = "Yes, Reset",
                     Variant = "Destructive",
                     Callback = function()
-                        ResetStats()
+                        ResetHalloweenStats()
                         _G.statsButton:SetDesc(UpdateStatsDisplay())
                         WindUi:Notify({
                             Title = "Statistics Reset",
